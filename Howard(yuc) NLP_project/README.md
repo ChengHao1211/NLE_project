@@ -7,7 +7,7 @@ This jupyter notebook is for question similarity based on BERT (Bidirectional En
 You can run the code in the server which has Anaconda environment and GPU for machine learning.
 Here is the instruction on how to set up the Anaconda environment and GPU
 https://medium.datadriveninvestor.com/installing-tensorflow-gpu-using-anaconda-on-windows-ac23b66d05f1
-
+You can also run the code on the nlp2023v2.yml environment with the command `conda env create --file nlp2023v2.yml --prefix /data/user/$USER/Conda_Env/nlp2023v2`
 
 ## The way to run the code
 All you can do for running the code is just click on running in the top bar. But the most important thing is the path of the data file. You have to modify the data file path in the code 
