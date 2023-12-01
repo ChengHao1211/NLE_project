@@ -18,13 +18,13 @@ All you need to do is just modify the Datafile_path to the path of the file. You
 
 ## The libraries you may install
 Here are some of the libraries you may install to run this code.
-NumPy (pip install numpy)
-pandas (pip install pandas)
-torch (pip install torch)
-seaborn (pip install seaborn)
-matplotlib (pip install matplotlib)
-tqdm (pip install tqdm)
-transformers (pip install transformers)
+NumPy `pip install numpy`
+pandas `pip install pandas`
+torch `pip install torch`
+seaborn `pip install seaborn`
+matplotlib `pip install matplotlib`
+tqdm `pip install tqdm`
+transformers `pip install transformers`
 
 
 ## Data analysis
@@ -34,7 +34,7 @@ The code performs exploratory data analysis on the training data, including visu
 The BERT model used in this code is based on the 'bert-base-uncased' version. The model is fine-tuned for question similarity using PyTorch and the Hugging Face transformers library. 
 
 ## Data Preparation
-The data is split into training(90%) and validation(10%) sets for model training. Then code tokenizes and encodes the input questions using the encode_plus function. After getting the encoded data I used torch.tensor to get the data for the training model as input data. And the data will be the "Id of the questions", "mask", "token id" and "target".  
+The data is split into training(90%) and validation(10%) sets for model training. Then code tokenizes and encodes the input questions using the `encode_plus` function. After getting the encoded data I used `torch.tensor` to get the data for the training model as input data. And the data will be the "Id of the questions", "mask", "token id" and "target".  
 The input data for the model will look like this.
 Input IDs: tensor([[  101,  1045,  2215,  ...,     0,     0,     0],
         [  101,  2339,  2003,  ...,     0,     0,     0],
