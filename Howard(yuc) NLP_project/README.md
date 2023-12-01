@@ -7,6 +7,7 @@ This jupyter notebook is for question similarity based on BERT (Bidirectional En
 You can run the code in the server which has Anaconda environment and GPU for machine learning.
 Here is the instruction on how to set up the Anaconda environment and GPU
 https://medium.datadriveninvestor.com/installing-tensorflow-gpu-using-anaconda-on-windows-ac23b66d05f1
+<br /> 
 You can also run the code on the nlp2023v2.yml environment with the command `conda env create --file nlp2023v2.yml --prefix /data/user/$USER/Conda_Env/nlp2023v2`
 
 ## The way to run the code
