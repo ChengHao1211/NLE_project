@@ -88,7 +88,7 @@ You can see the result looks fine that the Loss decreased to 0.070.
 The trained model is then used to predict the question similarity on the test set, and the results are saved in the result.csv file. The function here will give you the percentage of the prediction between question 1 and question 2 in the test dataset.
 
 ## Results 
-In the code, I have printed out head 100 results of the prediction and two types of the visualized graph.
+In the code, I have printed out the head 100 results of the prediction and two types of the visualized graph.
 Scatter Plot: Shows the relationship between test IDs and predicted question similarity.
 Bar Plot: Illustrates the distribution of question similarity predictions.
 
@@ -96,3 +96,13 @@ Bar Plot: Illustrates the distribution of question similarity predictions.
 How to use the BERT model properly to train the data.
 How to analyze the data and make a graph to easily understand.
 The hyperparameters affect the training a lot.
+
+## Refference
+https://www.geeksforgeeks.org/matplotlib-pyplot-scatter-in-python/ <br /> 
+https://huggingface.co/bert-base-uncased <br /> 
+https://wandb.ai/wandb/common-ml-errors/reports/How-to-Save-and-Load-Models-inPyTorch--VmlldzozMjg0MTE <br /> 
+https://peaceful0907.medium.com/sentence-embedding-by-bert-and-sentence-similarity759f7beccbf1 <br /> 
+https://www.kaggle.com/competitions/quora-question-pairs/overview <br /> 
+https://www.geeksforgeeks.org/seaborn-barplot-method-in-python/ <br /> 
+https://stanford.edu/~shervine/blog/pytorch-how-to-generate-data-parallel <br /> 
+
